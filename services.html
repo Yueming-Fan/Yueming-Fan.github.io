@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Beauty Hair</title>
+		<style>
+			body {
+				background-image: url('services.png');
+				background-size: 100%;
+			}
+			#home {
+				background-color: transparent;
+				border: transparent;
+				color: transparent;
+				font-size: 60px;
+			}
+			.topnav button {
+				background-color: transparent;
+				border: transparent;
+			  	color: white;
+			  	font-size: 30px;
+			  	text-align: center;
+			  	margin-right: 100px;
+			  	padding: 10px 24px;
+			  	position: relative;
+			  	left: 300px;
+			  	top: 30px;
+			}
+			.topnav #services {
+				background-color: white;
+				color: black;
+			}
+			p {
+				color: white;
+				position: relative;
+				font-size: 20px;
+				top: 20px;
+				margin-bottom: 0px;
+				margin-left: 30px;
+			}
+			div button {
+				position: relative;
+				top: 100px;
+				left: 700px;
+			}
+			div #p1 {
+				display: block;
+			}
+			div #p2, div #p3 {
+				display: none;
+			}
+		</style>
+		<script type="text/javascript" src="hairdresser.js"></script>
+	</head>
+	<body>
+		<button id="home" onclick="home()">Beauty Hair</button>
+		<div class="topnav">
+	      	<button id="contact" onclick="contact()">Contact Us</button>
+	      	<button id="book" onclick="book()">Book</button>
+	      	<button id="services" onclick="services()">Services</button>
+	      	<button id="team" onclick="team()">More About Us</button>
+    	</div>
+    	<div>
+    		<div id="p1">
+    			<p>Men’s Cut</p><br>
+				<p>Includes aromatherapy scalp massage and hot towel at your request. Starting at $31- $55+ tax</p><br>
+				<p>Women’s Cut</p><br>
+				<p>Includes aromatherapy scalp massage and makeup touch-up at your request. Starting at $40 – $85 + tax</p><br>
+				<p>Curly Creative Cut<p><br>
+				<p>This 75 to 90 minute service is designed for the curly haired client and includes a consultation, a dry free hand cut, wash, and dry (natural). Starting at $80-$90 + tax</p><br>
+				<p>Curly Maintain</p><br>
+				<p>This 30 minute service is for the client who has had a curly creative cut and wants to maintain the existing style. A light trim on dry hair to reshape and fine-tune curls. Starting at $55-$70 + tax</p>
+    		</div>
+    		<div id="p2">
+    			<p>Colour</p><br>
+				<p>Solid colour application. Starting at $75 + tax</p><br>
+				<p>Colour Styling</p><br>
+				<p>All over colour with a few soft highlights on top. Starting at $90-$120 + tax<p><br>
+				<p>Partial Foil Highlights</p><br>
+				<p>Quarter head highlights, to frame face or brighten the top of head. Starting at $100-$120 + tax</p><br>
+				<p>Custom Foil Highlights</p><br>
+				<p>Half head highlights, to add movement and colour to any style. Starting at $120-150 + tax</p><br>
+				<p>Deluxe Foil Highlights</p><br>
+				<p>Full head highlights used to change the colour of any style. Starting at -$160-$190 + tax</p>
+    		</div>
+    		<div id="p3">
+    			<p>Colour Correction</p><br>
+				<p>A professional fix-up. Complete consultation mandatory. Price is dependent on consultation.</p><br>
+				<p>Toner Service</p><br>
+				<p>A toner refresh for existing colour. Starting at $45 + tax</p>
+    		</div>
+    	</div>
+    	<div>
+    		<button id="one" onclick="toOne()">1</button>
+    		<button id="two" onclick="toTwo()">2</button>
+    		<button id="three" onclick="toThree()">3</button>
+    	</div>
+	</body>
+</html>
